@@ -1,0 +1,86 @@
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
+    /* .bg{
+        position: relative;
+    } */
+    .bg{
+        /* position: relative; */
+        width: 100%;
+        height: 600px;   
+        background: url("https://png.pngtree.com/thumb_back/fh260/background/20200616/pngtree-beautiful-blue-sky-with-cloud-image_339299.jpg");
+        background-repeat: no-repeat;
+        background-blend-mode: screen;
+        background-size: cover;
+
+    }
+    #imposed{
+        position: absolute;
+        bottom: 95px;
+        left: 225px;
+        background-repeat: no-repeat;
+        background-size: 900px 600px;
+        width: 800px;
+        height: 400px;
+        background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20200616/pngtree-beautiful-blue-sky-with-cloud-image_339299.jpg");
+        border: 5px solid black;
+        border-radius: 20px;
+    }
+    .container{
+        color: white;
+    }
+    .temp, .humidity {
+        position: absolute;
+        font-size: 25px;   
+        color: black; 
+    }
+    .temp {
+        bottom: 22px;
+        left: 120px;
+    }
+    .humidity {
+        bottom: 20px;
+        left: 550px;
+    }
+    /* .imposed_img{
+        position: absolute;
+        bottom: 70px;
+        left: 210px;
+        width: 65%;
+        border: 5px solid black;
+        border-radius: 25px;
+    } */
+}
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+    .bg{
+        position: relative;
+    }
+    .bg-img{
+        position: relative;
+        width: 100%;
+        height: 780px;   
+    }
+    .imposed{
+        position: relative;
+    }
+    .imposed_img{
+        position: absolute;
+        bottom: 120px;
+        left: 260px;
+        width: 65%;
+        border: 5px solid black;
+        border-radius: 20px;
+    }
+    .temp, .humidity {
+        position: absolute;
+        font-size: 25px;    
+    }
+    .temp {
+        color: white;
+        bottom: 150px;
+        left: 400px;
+    }
+    .humidity {
+        color: white;
+        bottom: 148px;
+        left: 950px;
+    }
+}
