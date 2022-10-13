@@ -1,17 +1,51 @@
-@media (min-width: 1024px) and (max-width: 1920px){
+@media screen and (min-width: 1024px) and (max-width: 1439px) {
     .bg{
         position: relative;
     }
     .bg-img{
         position: relative;
         width: 100%;
-        height: 750px;   
+        height: 600px;   
+    }
+    .imposed{
+        position: relative;
+    }
+    .temp, .humidity {
+        position: absolute;
+    }
+    .temp {
+        color: white;
+        bottom: 150px;
+        left: 400px;
+    }
+    .humidity {
+        color: white;
+        bottom: 148px;
+        left: 800px;
+    }
+    .imposed_img{
+        position: absolute;
+        bottom: 70px;
+        left: 210px;
+        width: 65%;
+        border: 5px solid black;
+        border-radius: 20px;
+    }
+}
+@media screen and (min-width: 1440px) and (max-width: 2559px) {
+    .bg{
+        position: relative;
+    }
+    .bg-img{
+        position: relative;
+        width: 100%;
+        height: 780px;   
     }
     .imposed_img{
         position: absolute;
         bottom: 120px;
-        left: 300px;
-        width: 60%;
+        left: 260px;
+        width: 65%;
         border: 5px solid black;
         border-radius: 20px;
     }
