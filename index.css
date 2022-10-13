@@ -1,0 +1,18 @@
+@media (min-width: 1024px) and (max-width: 1920px){
+    .bg{
+        position: relative;
+    }
+    .bg-img{
+        position: relative;
+        width: 100%;
+        height: 750px;   
+    }
+    .imposed_img{
+        position: absolute;
+        bottom: 120px;
+        left: 300px;
+        width: 60%;
+        border: 5px solid black;
+        border-radius: 20px;
+    }
+}
