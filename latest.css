@@ -3,7 +3,8 @@
         position: relative; 
         width: 100%;
         height: 600px;   
-        background: url("https://media.istockphoto.com/photos/scandinavian-style-modern-living-room-picture-id1363241460?b=1&k=20&m=1363241460&s=170667a&w=0&h=NG4edqzLYtMy4BmrliOevauqqzHfeFEl8UxCuhUPShU=");
+        /* background: url("https://media.istockphoto.com/photos/scandinavian-style-modern-living-room-picture-id1363241460?b=1&k=20&m=1363241460&s=170667a&w=0&h=NG4edqzLYtMy4BmrliOevauqqzHfeFEl8UxCuhUPShU=");*/
+        background: url(./bg.jpg);
         background-repeat: no-repeat;
         background-blend-mode: screen;
         background-size: cover;
@@ -17,7 +18,8 @@
         background-size: 900px 600px;
         width: 450px;
         height: 250px;
-        background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20200616/pngtree-beautiful-blue-sky-with-cloud-image_339299.jpg");
+        /* background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20200616/pngtree-beautiful-blue-sky-with-cloud-image_339299.jpg"); */
+        background: url(./bg.jpg);
         border: 7px solid black;
         border-radius: 20px;
     }
@@ -41,36 +43,44 @@
 }
 @media screen and (min-width: 1440px) and (max-width: 2559px) {
     .bg{
-        position: relative;
-    }
-    .bg-img{
-        position: relative;
+        position: relative; 
         width: 100%;
-        height: 780px;   
+        height: 600px;   
+        /* background: url("https://media.istockphoto.com/photos/scandinavian-style-modern-living-room-picture-id1363241460?b=1&k=20&m=1363241460&s=170667a&w=0&h=NG4edqzLYtMy4BmrliOevauqqzHfeFEl8UxCuhUPShU=");*/
+        background: url(./bg.jpg);
+        background-repeat: no-repeat;
+        background-blend-mode: screen;
+        background-size: cover;
+        
     }
-    .imposed{
-        position: relative;
-    }
-    .imposed_img{
+    #imposed{
         position: absolute;
-        bottom: 120px;
-        left: 260px;
-        width: 65%;
-        border: 5px solid black;
+        bottom: 100px;
+        left: 480px;
+        background-repeat: no-repeat;
+        background-size: 900px 600px;
+        width: 450px;
+        height: 250px;
+        /* background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20200616/pngtree-beautiful-blue-sky-with-cloud-image_339299.jpg"); */
+        background: url(./bg.jpg);
+        border: 7px solid black;
         border-radius: 20px;
+    }
+    .container{
+        color: white;
     }
     .temp, .humidity {
         position: absolute;
-        font-size: 25px;    
+        font-size: 20px;   
+        color: white;
+        text-decoration: solid;
     }
     .temp {
-        color: white;
-        bottom: 150px;
-        left: 400px;
+        bottom: 4px;
+        left: 25px;
     }
     .humidity {
-        color: white;
-        bottom: 148px;
-        left: 950px;
+        bottom: 2px;
+        left: 300px;
     }
 }
