@@ -1,8 +1,9 @@
 var myElement = document.getElementById('imposed'),
     imgList = [
-        "https://images.unsplash.com/photo-1515694346937-94d85e41e6f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8cmFpbnxlbnwwfHwwfHw%3D&w=1000&q=80",
-        "https://img.freepik.com/premium-photo/photo-canola-field-bright-hot-summer-day-landscape-nature_299276-517.jpg?w=2000",
-        "https://images.unsplash.com/photo-1610378386656-9ac85ffcdaa6?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8M3x8d2ludGVyJTIwc2NlbmVyeXxlbnwwfHwwfHw%3D&w=1000&q=80"
+        "https://images.unsplash.com/photo-1595454216162-f5e9b838058b?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MjB8fHJhaW5kcm9wc3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60", //rainy
+        "https://images.unsplash.com/photo-1618872361493-dcc87259c544?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTh8fHN1bW1lciUyMGRheXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=600&q=60", 
+        //summer
+        "https://images.unsplash.com/photo-1505322101000-19457cff32ba?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8NXx8d2ludGVyJTIwbmlnaHR8ZW58MHx8MHx8&auto=format&fit=crop&w=600&q=60" //winter
     ];
     function changeImage(myElement, imgList) {
         setInterval(function(){
