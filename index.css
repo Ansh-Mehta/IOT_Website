@@ -68,3 +68,26 @@
         left: 950px;
     }
 }
+nav ul{
+display: flex;
+list-style-type: none;
+height: 50px;
+background-color:rgb(16, 144, 195);
+color: white;
+align-items: center;
+}
+nav ul li{
+padding: 0 8px;
+cursor: pointer;
+}
+
+.brand img{
+width:50px;
+}
+
+.brand{
+display: flex;
+font-weight: bolder;
+font-size: 1.3rem;
+align-items: center;
+}
