@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
 }
-@media screen and (min-width: 1024px) and (max-width: 1439px) {
+@media screen and (min-width: 1024px){
     .bg{
         position: relative; 
         width: 100%;
@@ -15,14 +15,14 @@
     }
     #imposed{
         position: absolute;
-        bottom: 20rem;
-        left: 21rem;
+        bottom: 10rem;
+        left: 28rem;
         background-repeat: no-repeat;
         /* background-size: 900px 600px; */
         width: 24rem;
         height: 14rem;
         /* background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20200616/pngtree-beautiful-blue-sky-with-cloud-image_339299.jpg"); */
-        background: url(./bg.jpg);
+        background: url(./images/bg.jpg);
         border: 7px solid black;
         border-radius: 20px;
     }
@@ -31,20 +31,20 @@
     }
     .temp, .humidity {
         position: absolute;
-        font-size: 20px;   
+        font-size: 18px;   
         color: white;
         text-decoration: solid;
     }
     .temp {
         bottom: 0.2rem;
-        left: 0.9rem;
+        left: 1rem;
     }
     .humidity {
         bottom: 0.2rem;
-        left: 14rem;
+        left: 15.5rem;
     }
 }
-@media screen and (min-width: 1440px) and (max-width: 2559px) {
+@media screen and (min-width: 1440px){
     .bg{
         position: relative; 
         width: 100%;
@@ -58,11 +58,11 @@
     }
     #imposed{
         position: absolute;
-        bottom: 18rem;
+        bottom: 6rem;
         left: 32rem;
         background-repeat: no-repeat;
         width: 28rem;
-        height: 15rem;
+        height: 17rem;
         /* background-image:url("https://png.pngtree.com/thumb_back/fh260/background/20200616/pngtree-beautiful-blue-sky-with-cloud-image_339299.jpg"); */
         background: url(./bg.jpg);
         border: 7px solid black;
